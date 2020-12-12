@@ -6,7 +6,7 @@ from pySmartDL import SmartDL
 from urllib.error import HTTPError
 from youtube_dl import DownloadError
 from bot import DOWNLOAD_DIRECTORY, LOGGER
-import libtorrent as lt
+import torrent_client as lt
 import time
 
 def download_file(url, dl_path):
