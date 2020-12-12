@@ -1,10 +1,10 @@
 class config:
-    BOT_TOKEN = ""
-    APP_ID = ""
-    API_HASH = ""
-    DATABASE_URL = ""
-    SUDO_USERS = "" # Sepearted by space.
-    SUPPORT_CHAT_LINK = ""
+    BOT_TOKEN = "1331714816:AAHsbzzRwrfqwwHzk5pJTQhVyPWcf-paz6Y"
+    APP_ID = "2206386"
+    API_HASH = "cbb279159c065dbb3ab1e3160b004518"
+    DATABASE_URL = "postgres://gkabohvezvzhay:be794e69ee0ca24de045e97e7d531cf6ff0ec13199a0d5fa05a57b295533ff96@ec2-34-200-181-5.compute-1.amazonaws.com:5432/d4p400u2pho1qn"
+    SUDO_USERS = "1366454553" # Sepearted by space.
+    SUPPORT_CHAT_LINK = "https://t.me/chatsupport99"
     DOWNLOAD_DIRECTORY = "./downloads/"
 
 
@@ -19,7 +19,8 @@ class BotCommands:
   Ytdl = ['ytdl']
 
 class Messages:
-    START_MSG = "**Hi there {}.**\n__I'm Google Drive Uploader Bot.You can use me to upload any file / video to Google Drive from direct link or Telegram Files.__\n__You can know more from /help.__"
+    START_MSG = "**Hi there {}.**\n__I'm Google Drive Uploader Bot.You can use me to upload any file / video to Google Drive from direct link or Telegram Files.__\n__You can know more from /help.__
+I am developed by Tanveer Ahmed"
 
     HELP_MSG = [
         ".",
@@ -36,7 +37,7 @@ class Messages:
         "**Rules & Precautions**\n__1. Don't copy BIG Google Drive Files/Folders. It may hang the bot and your files maybe damaged.\n2. Send One request at a time unless bot will stop all processes.\n3. Don't send slow links @transload it first.\n4. Don't misuse, overload or abuse this free service.__",
         
         # Dont remove this ↓ if you respect developer.
-        "**Developed by @viperadnan**"
+        "**Developed by @Tanveer**"
         ]
      
     RATE_LIMIT_EXCEEDED_MESSAGE = "❗ **Rate Limit Exceeded.**\n__User rate limit exceeded try after 24 hours.__"
@@ -49,7 +50,7 @@ class Messages:
     
     NOT_AUTH = f"🔑 **You have not authenticated me to upload to any account.**\n__Send /{BotCommands.Authorize[0]} to authenticate.__"
     
-    DOWNLOADED_SUCCESSFULLY = "📤 **Uploading File...**\n**Filename:** ```{}```\n**Size:** ```{}```"
+    DOWNLOADED_SUCCESSFULLY = "📤 **Uploading File...**\n**Filename:** ```{}```\n**Size:** ```{}````````````````"
     
     UPLOADED_SUCCESSFULLY = "✅ **Uploaded Successfully.**\n[{}]({}) __({})__"
     
